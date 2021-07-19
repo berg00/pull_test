@@ -1,7 +1,7 @@
 function compareParams(param1, param2) {
-  // TODO compare params
+  return param1 === param2
 }
 
 function validateParams(param1, param2) {
-  // TODO validate params
+  return param1 && param2
 }
