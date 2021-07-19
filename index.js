@@ -11,3 +11,7 @@ function clearParams(param1, param2) {
   param2 = null
   return
 }
+
+function validateSingleParam(param1, param2) {
+  return param1 || param2
+}
